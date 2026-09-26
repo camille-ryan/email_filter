@@ -1,0 +1,15 @@
+# Personal mail data. Never commit: contains real senders, subjects, the
+# account's own address, and live one-click unsubscribe tokens.
+decisions_*.csv
+promo_senders_*.csv
+promo_domains.csv
+sweep_domains.csv
+*.sqlite
+
+# Credentials
+.env
+.env.*
+
+.venv/
+__pycache__/
+*.pyc
